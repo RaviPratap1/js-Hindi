@@ -8,7 +8,7 @@ const bignumber = 123432423534534534534545454n
 // console.log(bignumber)
 
 
-// Reference Dtat type (non primitive )
+// Reference Data type (non primitive )
 // Array, Objects, function
 
 const heros = ["shaktiman", "naagraj", "doga"]
@@ -22,7 +22,31 @@ const myFunction = function(){
 console.log("Hello world");
 }
 // check data type 
-console.log(typeof id)
-console.log(typeof myFunction)
+// console.log(typeof id)
+// console.log(typeof myFunction)
+
+
+// +++++++++++++++++++++++++++++++
+//stack (Primitive)copy value,    Heap (Non-Primitive)refrence value
+
+// Primitive 
+let myname ="Ravi"
+let anothername = myname
+// console.log(anothername)
+anothername ="chaiauecode"
+// console.log(myname)
+// console.log(anothername)
+
+
+// Reference
+let user1={
+    email:"uer7264@gmail.com",
+    upi:"user@ybl"
+}
+let user2= user1
+
+user2.email  ="gfdfg454@gmail.com"
+console.log(user2.email)
+console.log(user1.email)
 
 
