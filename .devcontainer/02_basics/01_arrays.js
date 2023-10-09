@@ -37,3 +37,4 @@ const myn2 = myarr.splice(1,4)
 console.log(myn2);
 
 console.log("C",myarr);
+
