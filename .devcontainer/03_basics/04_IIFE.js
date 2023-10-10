@@ -19,5 +19,5 @@ function chai(){
 
 ( (name) => {
     console.log(`DB Connected-2 ${name}`)
-})('ravi');
+})('ravi'); 
 
