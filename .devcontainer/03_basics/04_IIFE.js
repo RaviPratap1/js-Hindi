@@ -5,8 +5,6 @@ function chai(){
     console.log("DB Connected")
 }
 // chai()
-
-
 // (IIFE)++++++++++++++++++
 (function chai(){
     // named IIFE 
