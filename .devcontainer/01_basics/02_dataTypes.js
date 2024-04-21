@@ -7,5 +7,6 @@ let isLoggedIn = false       //Boolean
 let x= null                       //null
 let  state               //undifine
 let sym =Symbol("foo")                          // symbol
-console.table([Fullname, age, isLoggedIn, x, state, sym])
-console.table([typeof(Fullname), typeof(age), typeof(isLoggedIn), typeof(x), typeof(state), typeof(sym)])
+let y = BigInt(123142543654758767989909800)     // Bigint
+console.table([Fullname, age, isLoggedIn, x, state, sym, y])
+console.table([typeof(Fullname), typeof(age), typeof(isLoggedIn), typeof(x), typeof(state), typeof(sym), typeof(y)])
