@@ -23,8 +23,8 @@ let booleaanIsLoggedIn = Boolean(isLoggedIn);
 //  ""         false      boolean 
 //  "Ravi"     true       boolean 
 
-let soneNumber= 33
-let stringNumber = String(soneNumber);
+let someNumber= 33
+let stringNumber = String(someNumber);
 // console.log(typeof stringNumber)
 // console.log(stringNumber)
 
@@ -59,10 +59,10 @@ let str3= str1 + str2
 
 
 let gamCounter =100
-console.log(gamCounter)
+// console.log(gamCounter)
 
 gamCounter++;
-console.log(gamCounter)
+// console.log(gamCounter)
 
 
 
