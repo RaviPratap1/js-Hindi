@@ -30,17 +30,22 @@ const hundreds = 1000000
 
 //+++++++++++++++++++++Maths++++++++++++++++
 
-// console.log(Math)
-// console.log(Math.abs(-4))
-// console.log(Math.round(4.6))
-// console.log(Math.ceil(4.2))
-// console.log(Math.floor(4.9))
+console.log(Math)
+console.log(Math.abs(-4))          // - to +
+console.log(Math.round(4.6))
+console.log(Math.ceil(4.2))         // upper value
+console.log(Math.floor(4.9))        // lower value
+console.log(Math.min(1,3,55,6,7,9));
+console.log(Math.max(1,3,55,6,7,9));
 
-//console.log(Math.random())   //0> Math.random() <1
-//console.log(Math.floor(Math.random()*10)+1)   //0< Math.random() <=10
+
+console.log(Math.random())   //0> Math.random() <1
+
+console.log(Math.floor(Math.random()*10)+1)   //0< Math.random() <=10
+
 const min =10;
 const max =20;
-//console.log(Math.floor(Math.random()*(max-min+1)+min))  //10<= Math.random() <=20
+console.log(Math.floor(Math.random()*(max-min+1)+min))  //10<= Math.random() <=20
 
 
 
