@@ -50,3 +50,24 @@ console.log(user2.email)
 console.log(user1.email)
 
 
+// Memory 
+
+let name1 = "ravi"
+let name2 = name1;
+name2 ="sanju"
+
+console.log(name1);
+console.log(name2);
+
+
+let x = {
+    class: 6,
+    age:20
+}
+
+let y = x;
+y.class = 9;
+
+console.log(y);
+console.log(x);
+
