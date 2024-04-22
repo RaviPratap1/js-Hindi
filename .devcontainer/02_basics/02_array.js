@@ -17,7 +17,7 @@ const dc_heros = ["superman", "flash", "batman"]
 
 console.log(Array.isArray("Ravi"))    // false
 console.log(Array.from("Ravi"))     // convert in Array
-console.log(Array.from("Ravi"))     // convert in Array
+console.log(Array.from("Ravi Pratap"))     // convert in Array
 console.log(Array.of(1,2,3,4))     // convert in Array
 
 // learn
