@@ -16,7 +16,7 @@ const user ={
 
 
 function chai(){
-    let username = "hitesh"     //  function ke andar this keyword nahi kar sakte hai
+    let username = "hitesh"     //  function ke andar this keyword use nahi kar sakte hai
     console.log(this.username)   // undefined
 }
 // chai()

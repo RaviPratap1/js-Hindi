@@ -25,7 +25,7 @@ function loginUserMessage(username = "Sam"){
     return `${username} just logged in`
 
 }
-const lum =loginUserMessage()
+// const lum =loginUserMessage()
 // console.log(lum)
 
 
@@ -42,7 +42,7 @@ const user = {
 }
 
 function handleObject(anyobject){
-    // console.log(   `Username is ${anyobject.username} and price is ${anyobject.price}`)
+    console.log(   `Username is ${anyobject.username} and price is ${anyobject.price}`)
 }
 
 // handleObject(user)
@@ -62,4 +62,4 @@ function returnSecondVlue(getArry){
     return getArry[3]
 }
 
-// console.log(returnSecondVlue(myNewarray))
+console.log(returnSecondVlue(myNewarray))
