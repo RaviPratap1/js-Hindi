@@ -6,23 +6,24 @@ const myarr2 = new Array(2,1,6,7,8,9)
 // Method  ++++++++++++++++++++++
 
 // myarr.push(10)
-// console.log(myarr)
+// console.log(myarr)   //[9,0,1,2, 3,4,5, null, 'Ravi', 10]
 
 // myarr.pop();
-// console.log(myarr)
+// console.log(myarr)   //[9,0,1,2, 3,4,5, null, 'Ravi']
 
 // myarr.unshift(9)
-// console.log(myarr)
+// console.log(myarr)    //[9,0,1,2, 3,4,5, null, 'Ravi']
 
 // myarr.shift()
-// console.log(myarr)
+// console.log(myarr)      //[0,1,2,3,4,5,null, 'Ravi']
 
 // console.log(myarr.includes(9))
 // console.log(myarr.indexOf("Ravi"))
 
-const newArr = myarr.join()
+// const newArr = myarr.join()
 // console.log(myarr)
-// console.log(newArr)          // type string 
+// console.log(newArr)          
+// console.log(typeof newArr)          // type string 
 
 // slice, splice
 console.log("A",myarr)
@@ -35,6 +36,7 @@ console.log("B",myarr);
 
 const myn2 = myarr.splice(1,4)
 console.log(myn2);
+
 
 console.log("C",myarr);
 
