@@ -1,8 +1,11 @@
 let myDate = new Date()
+// console.log(myDate);
 // console.log(myDate.toString());  //Mon Oct 09 2023 05:13:53 GMT+0000
 // console.log(myDate.toDateString());  //Mon Oct 09 2023
 // console.log(myDate.toLocaleString());  //10/9/2023, 5:15:23 AM
+// console.log(myDate.toJSON());  2024-04-22T05:58:45.066Z
 // console.log(typeof myDate);                 //object
+
 
 let myCreatedDate = new Date(2023,0,23);
 // console.log(myCreatedDate);               //2023-01-23T00:00:00.000Z
@@ -25,7 +28,7 @@ let myTimeStemp =Date.now()
 // console.log(myDate.getFullYear())
 // console.log(myDate.getMilliseconds())
 
-console.log(myDate.toLocaleString('default', {
-    weekday:"long",
-    day:"2-digit"
-}))
+// console.log(myDate.toLocaleString('default', {
+//     weekday:"long",
+//     day:"2-digit"
+// }))
