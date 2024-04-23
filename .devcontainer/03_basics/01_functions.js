@@ -1,23 +1,39 @@
+ function sum(n1,n2){
+    console.log(n1+n2);
+    console.log(5+"2"+3+"6");
+
+}
+
+ 
+// sum      // --->  function refrence
+sum(1,2) //-->>  function executes
+
+
+
 // function addtwoNumber(num1, num2){
-//    console.log( num1+num2)
+//    console.log(num1+num2)
 // }
 
 
 function addtwoNumber(num1, num2){
     // let result= num1+num2
     // return result;
-    
      // or 
+
     return num1+num2;
+
  }
+ 
 
-// addtwoNumber(2,8);
-const result = addtwoNumber(2,8)
-// console.log(result)
+// addtwoNumber(5,8);
 
+
+// const result = addtwoNumber(2,8);
+// console.log(result);
+ 
 
 function loginUserMessage(username = "Sam"){
-    if(!username){     // (username === undefined) = !username
+    if(!username){     // (username === undefined) = !username   --most
         console.log("Please enter a username")
         return
     }
@@ -48,6 +64,7 @@ function handleObject(anyobject){
 // handleObject(user)
 
 // ++++++++++++++++OR++++++++++++++++++
+
 handleObject({
     username:"sameer",
     price:333

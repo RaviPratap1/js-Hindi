@@ -8,10 +8,12 @@ const user ={
 
 }
 
+
+
 // user.welcomeMassage()
 // user.username = "sem"
 // user.welcomeMassage()
-// console.log(this)
+// console.log(this)     //{}
 
 
 
@@ -19,7 +21,7 @@ function chai(){
     let username = "hitesh"     //  function ke andar this keyword use nahi kar sakte hai
     console.log(this.username)   // undefined
 }
-// chai()
+chai()
 
 const chai1 = function(){
     let username = "hitesh"     //  function ke andar this keyword nahi kar sakte hai
@@ -29,8 +31,9 @@ const chai1 = function(){
 
 
 const chai2 = () => {
-    let username = "hitesh"     //  function ke andar this keyword nahi kar sakte hai
+    let username = "hitesh2"     //  function ke andar this keyword nahi kar sakte hai
     console.log(this.username)   // undefined
+    console.log(username)   
 }
 // chai2()
 
@@ -40,6 +43,7 @@ const chai2 = () => {
 const addtwo = (num1, num2) => {
     return num1+num2;
 }
+
 console.log(addtwo(2,3))
 
 const addtwo1 = (num1, num2) => num1+num2;        //or

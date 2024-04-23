@@ -29,23 +29,23 @@ function two () {
     // console.log(website)  //not valid
     two()
 }
-// one()
+one()
 
 // function two method ++++++++++++++++
 
-console.log(addOne(5))
+// console.log(addOne(5))
 
 function addOne(num){
     return num+1;
 }
 
-// console.log(addTwo(8))      ---> ERROR 
+// console.log(addTwo(8))     // ---> ERROR 
 const addTwo = function (num){
     return num+2;
 }
 
-console.log(addOne(5))
-console.log(addTwo(8))
+// console.log(addOne(5))
+// console.log(addTwo(8))
 
 
 
