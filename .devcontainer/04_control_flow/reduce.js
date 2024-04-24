@@ -1,10 +1,12 @@
 const myNums = [1, 2, 3]
 
 
-// const  myTotal = myNums.reduce( (acc, currval) => {
-//     console.log(`acc ${acc} and currval: ${currval}`)
-//     return acc+currval
-// },0 )
+const  myTotal = myNums.reduce( (acc, currval) => {
+    console.log(`acc ${acc} and currval: ${currval}`)
+    return acc+currval
+},0 )
+
+// console.log(myTotal);
 
 // const myTotal = myNums.reduce((acc, currval) => acc + currval, 0)
 // console.log(myTotal)
@@ -33,5 +35,5 @@ const shoppingCart = [
 ]
 
 
-const cartTotal = shoppingCart.reduce((sum,value) => sum+ value.price ,0 )
-console.log(cartTotal)
+// const cartTotal = shoppingCart.reduce((sum,value) => sum+ value.price ,0 )
+// console.log(cartTotal)

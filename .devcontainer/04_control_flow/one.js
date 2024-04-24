@@ -16,15 +16,15 @@ const balance = 200;
 // truthy values 
 // "0", 'false', " ", [], {}, function() {}
 
-const  userEmail = []
-if(userEmail.length ===0){
-    // console.log("userEmail array is empty")
-}
+// const  userEmail = []
+// if(userEmail.length ===0){
+//     console.log("userEmail array is empty")
+// }
 
-const  emptyObj = {}
-if(Object.keys(emptyObj).length ===0){
-    // console.log("Object is empty")
-}
+// const  emptyObj = {}
+// if(Object.keys(emptyObj).length ===0){
+//     // console.log("Object is empty")
+// }
 
 
 // Nullish Coalescing Operator (??): null undefined
@@ -32,12 +32,15 @@ if(Object.keys(emptyObj).length ===0){
 let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
-val1 = undefined ?? 15
+// val1 = undefined ?? 15
 
-console.log(val1)
+// console.log(val1)
+
+
 
 
 // Terniary Oprator 
+
 const ice =100;
 ice >90 ? console.log("take"):console.log("don't take")
 ice >110 ? console.log("take"):console.log("don't take")
