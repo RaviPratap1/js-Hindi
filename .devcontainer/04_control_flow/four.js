@@ -21,6 +21,7 @@ const myNums = [1,2,3,4,5,6,7,8]
 
 // ----------------OR -----------------
 
+
 const newNums = []
 myNums.forEach( (num) => {
     if(num>4){
